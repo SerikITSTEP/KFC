@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace DatabaseLibrary
+namespace KFC.models
 {
   public  class Users
     {

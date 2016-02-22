@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DatabaseLibrary
+namespace KFC.models
 {
   public  class Employees
     {
@@ -19,7 +19,7 @@ namespace DatabaseLibrary
       bool sex { get; set; }
       DateTime birthDate { get; set; }
       string adress { get; set; }
-      int experience { get; set }
+      int experience { get; set; }
 
 
     }
