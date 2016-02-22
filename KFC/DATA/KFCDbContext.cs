@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using KFC.models;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DatabaseLibrary
+namespace KFC.DATA
 {
     public class KFCDbContext : DbContext
     {
@@ -15,6 +11,9 @@ namespace DatabaseLibrary
         }
 
         //
-
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
     }
 }
