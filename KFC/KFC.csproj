@@ -58,12 +58,27 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602221528508_Initial.cs" />
+    <Compile Include="Migrations\201602221528508_Initial.Designer.cs">
+      <DependentUpon>201602221528508_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602221531101_Seed.cs" />
+    <Compile Include="Migrations\201602221531101_Seed.Designer.cs">
+      <DependentUpon>201602221531101_Seed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="models\Employees.cs" />
-    <Compile Include="models\Positions.cs" />
-    <Compile Include="models\Users.cs" />
+    <Compile Include="models\Employee.cs" />
+    <Compile Include="models\Position.cs" />
+    <Compile Include="models\Role.cs" />
+    <Compile Include="models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Migrations\201602221528508_Initial.resx">
+      <DependentUpon>201602221528508_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602221531101_Seed.resx">
+      <DependentUpon>201602221531101_Seed.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
