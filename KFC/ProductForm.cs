@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KFC
 {
-    public partial class AdminForm : Form
+    public partial class ProductForm : Form
     {
-        public AdminForm()
+        public ProductForm()
         {
             InitializeComponent();
         }

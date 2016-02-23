@@ -1,4 +1,6 @@
-﻿using System;
+﻿using KFC.DATA;
+using KFC.models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace KFC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Autorization());
+            Application.Run(new AdminForm(new User { login = "admin", password = "admin", role_id = "admin" }));
         }
     }
 }

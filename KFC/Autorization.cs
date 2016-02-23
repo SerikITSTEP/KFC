@@ -30,18 +30,9 @@ namespace KFC
             User user = context.Users.FirstOrDefault(s => (string.Compare(s.login, tbLogin.Text) == 0) && s.password == tbPass.Text);
             if (user != null)
             {
-                AdminForm fr2 = new AdminForm();
-                fr2.Show();
-                switch (user.role_id)
-                {
-                    case "admin":
-                        break;
-                    case "":
-                            break;
-                    default:
-                        break;
-                }
-
+                AdminForm ad = new AdminForm(user);
+                this.Hide();
+                ad.Show();
             }
             else
                 MessageBox.Show("Логин или пароль неверный", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
