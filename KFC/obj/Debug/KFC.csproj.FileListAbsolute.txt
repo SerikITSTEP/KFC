@@ -1,0 +1,15 @@
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\KFC.exe.config
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\KFC.exe
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\KFC.pdb
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\EntityFramework.dll
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\EntityFramework.xml
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.csprojResolveAssemblyReference.cache
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.Migrations.Initial.resources
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.Migrations.Seed.resources
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.Properties.Resources.resources
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.Report.resources
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.csproj.GenerateResource.Cache
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.exe
+C:\Users\АлиарыстанС\Desktop\GITPROJECT\KFC\KFC\obj\Debug\KFC.pdb
