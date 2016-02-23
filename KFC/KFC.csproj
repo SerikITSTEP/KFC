@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201602221528508_Initial.cs" />
     <Compile Include="Migrations\201602221528508_Initial.Designer.cs">
       <DependentUpon>201602221528508_Initial.cs</DependentUpon>
@@ -66,18 +72,44 @@
     <Compile Include="Migrations\201602221531101_Seed.Designer.cs">
       <DependentUpon>201602221531101_Seed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602231413447_AutorizationAndSomeClasses.cs" />
+    <Compile Include="Migrations\201602231413447_AutorizationAndSomeClasses.Designer.cs">
+      <DependentUpon>201602231413447_AutorizationAndSomeClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602231416531_AutorizationAndSomeClasses1.cs" />
+    <Compile Include="Migrations\201602231416531_AutorizationAndSomeClasses1.Designer.cs">
+      <DependentUpon>201602231416531_AutorizationAndSomeClasses1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="models\Employee.cs" />
+    <Compile Include="models\Ingredient.cs" />
+    <Compile Include="models\Measure.cs" />
     <Compile Include="models\Position.cs" />
+    <Compile Include="models\Receipt.cs" />
+    <Compile Include="models\ReceiptDetail.cs" />
     <Compile Include="models\Role.cs" />
+    <Compile Include="models\Supplier.cs" />
     <Compile Include="models\User.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602221528508_Initial.resx">
       <DependentUpon>201602221528508_Initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201602221531101_Seed.resx">
       <DependentUpon>201602221531101_Seed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602231413447_AutorizationAndSomeClasses.resx">
+      <DependentUpon>201602231413447_AutorizationAndSomeClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602231416531_AutorizationAndSomeClasses1.resx">
+      <DependentUpon>201602231416531_AutorizationAndSomeClasses1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +133,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

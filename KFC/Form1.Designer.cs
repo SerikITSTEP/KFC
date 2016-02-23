@@ -1,6 +1,6 @@
 ﻿namespace KFC
 {
-    partial class Form1
+    partial class Autorization
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.tbLogin = new System.Windows.Forms.TextBox();
+            this.tbPass = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnOK
+            // 
+            this.btnOK.Location = new System.Drawing.Point(38, 145);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(158, 45);
+            this.btnOK.TabIndex = 0;
+            this.btnOK.Text = "Войти";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            // 
+            // tbLogin
+            // 
+            this.tbLogin.Location = new System.Drawing.Point(38, 27);
+            this.tbLogin.Name = "tbLogin";
+            this.tbLogin.Size = new System.Drawing.Size(157, 20);
+            this.tbLogin.TabIndex = 1;
+            // 
+            // tbPass
+            // 
+            this.tbPass.Location = new System.Drawing.Point(38, 75);
+            this.tbPass.Name = "tbPass";
+            this.tbPass.PasswordChar = '*';
+            this.tbPass.Size = new System.Drawing.Size(157, 20);
+            this.tbPass.TabIndex = 2;
+            // 
+            // Autorization
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(234, 210);
+            this.Controls.Add(this.tbPass);
+            this.Controls.Add(this.tbLogin);
+            this.Controls.Add(this.btnOK);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Autorization";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Авторизация";
+            this.Load += new System.EventHandler(this.Autorization_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.TextBox tbLogin;
+        private System.Windows.Forms.TextBox tbPass;
     }
 }
 
