@@ -93,21 +93,18 @@
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="Report.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
-=======
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
->>>>>>> 662e0515c7b484190aefab3a5212f7a8d5b66753
     <EmbeddedResource Include="Migrations\201602221528508_Initial.resx">
       <DependentUpon>201602221528508_Initial.cs</DependentUpon>
     </EmbeddedResource>
