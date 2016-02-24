@@ -1,6 +1,6 @@
 ﻿namespace KFC
 {
-    partial class AdminForm
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,17 +32,17 @@
             this.adminTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.userEditTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.directoryTSMI = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentTSMI = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.ингредиентыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.товарыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поставщикиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.складToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.единицыИзмеренияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.documentTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.приходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.приказОПриёмеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.заказToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.чекToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.складToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.единицыИзмеренияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.msMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,6 +88,36 @@
             this.directoryTSMI.Size = new System.Drawing.Size(87, 20);
             this.directoryTSMI.Text = "Справочник";
             // 
+            // ингредиентыToolStripMenuItem
+            // 
+            this.ингредиентыToolStripMenuItem.Name = "ингредиентыToolStripMenuItem";
+            this.ингредиентыToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.ингредиентыToolStripMenuItem.Text = "Ингредиенты";
+            // 
+            // товарыToolStripMenuItem
+            // 
+            this.товарыToolStripMenuItem.Name = "товарыToolStripMenuItem";
+            this.товарыToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.товарыToolStripMenuItem.Text = "Товары";
+            // 
+            // поставщикиToolStripMenuItem
+            // 
+            this.поставщикиToolStripMenuItem.Name = "поставщикиToolStripMenuItem";
+            this.поставщикиToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.поставщикиToolStripMenuItem.Text = "Поставщики";
+            // 
+            // складToolStripMenuItem
+            // 
+            this.складToolStripMenuItem.Name = "складToolStripMenuItem";
+            this.складToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.складToolStripMenuItem.Text = "Склад";
+            // 
+            // единицыИзмеренияToolStripMenuItem
+            // 
+            this.единицыИзмеренияToolStripMenuItem.Name = "единицыИзмеренияToolStripMenuItem";
+            this.единицыИзмеренияToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.единицыИзмеренияToolStripMenuItem.Text = "Единицы измерения";
+            // 
             // documentTSMI
             // 
             this.documentTSMI.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -99,32 +129,6 @@
             this.documentTSMI.Name = "documentTSMI";
             this.documentTSMI.Size = new System.Drawing.Size(82, 20);
             this.documentTSMI.Text = "Документы";
-            // 
-            // reportTSMI
-            // 
-            this.reportTSMI.Enabled = false;
-            this.reportTSMI.Name = "reportTSMI";
-            this.reportTSMI.Size = new System.Drawing.Size(60, 20);
-            this.reportTSMI.Text = "Отчеты";
-            this.reportTSMI.Click += new System.EventHandler(this.reportTSMI_Click);
-            // 
-            // ингредиентыToolStripMenuItem
-            // 
-            this.ингредиентыToolStripMenuItem.Name = "ингредиентыToolStripMenuItem";
-            this.ингредиентыToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.ингредиентыToolStripMenuItem.Text = "Ингредиенты";
-            // 
-            // товарыToolStripMenuItem
-            // 
-            this.товарыToolStripMenuItem.Name = "товарыToolStripMenuItem";
-            this.товарыToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.товарыToolStripMenuItem.Text = "Товары";
-            // 
-            // поставщикиToolStripMenuItem
-            // 
-            this.поставщикиToolStripMenuItem.Name = "поставщикиToolStripMenuItem";
-            this.поставщикиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.поставщикиToolStripMenuItem.Text = "Поставщики";
             // 
             // приходToolStripMenuItem
             // 
@@ -151,19 +155,15 @@
             this.чекToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.чекToolStripMenuItem.Text = "Чек";
             // 
-            // складToolStripMenuItem
+            // reportTSMI
             // 
-            this.складToolStripMenuItem.Name = "складToolStripMenuItem";
-            this.складToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.складToolStripMenuItem.Text = "Склад";
+            this.reportTSMI.Enabled = false;
+            this.reportTSMI.Name = "reportTSMI";
+            this.reportTSMI.Size = new System.Drawing.Size(60, 20);
+            this.reportTSMI.Text = "Отчеты";
+            this.reportTSMI.Click += new System.EventHandler(this.reportTSMI_Click);
             // 
-            // единицыИзмеренияToolStripMenuItem
-            // 
-            this.единицыИзмеренияToolStripMenuItem.Name = "единицыИзмеренияToolStripMenuItem";
-            this.единицыИзмеренияToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.единицыИзмеренияToolStripMenuItem.Text = "Единицы измерения";
-            // 
-            // AdminForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -172,7 +172,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.msMain;
-            this.Name = "AdminForm";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Админ панель";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

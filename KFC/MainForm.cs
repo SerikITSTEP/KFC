@@ -11,15 +11,15 @@ using System.Windows.Forms;
 
 namespace KFC
 {
-    public partial class AdminForm : Form
+    public partial class MainForm : Form
     {
         User user = null;
-        public AdminForm()
+        public MainForm()
         {
             InitializeComponent();
         }
 
-        public AdminForm(User u)
+        public MainForm(User u)
         {
             InitializeComponent();
             user = u;

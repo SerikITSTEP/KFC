@@ -18,7 +18,7 @@ namespace KFC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminForm(new User { login = "admin", password = "admin", role_id = "admin" }));
+            Application.Run(new MainForm(new User { login = "admin", password = "admin", role_id = "admin" }));
         }
     }
 }

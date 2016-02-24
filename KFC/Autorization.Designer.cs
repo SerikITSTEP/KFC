@@ -35,9 +35,9 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(38, 145);
+            this.btnOK.Location = new System.Drawing.Point(38, 122);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(158, 45);
+            this.btnOK.Size = new System.Drawing.Size(157, 31);
             this.btnOK.TabIndex = 0;
             this.btnOK.Text = "Войти";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 210);
+            this.ClientSize = new System.Drawing.Size(234, 184);
             this.Controls.Add(this.tbPass);
             this.Controls.Add(this.tbLogin);
             this.Controls.Add(this.btnOK);

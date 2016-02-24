@@ -7,7 +7,8 @@ namespace KFC.models
     {
         [Key]
         public long id_employee { get; set; }
-        public long id_position { get; set; }
+        public long position_id { get; set; }
+        public long user_id { get; set; }
         public string fName { get; set; }
         public string sName { get; set; }
         public string mName { get; set; }

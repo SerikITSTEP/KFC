@@ -30,7 +30,7 @@ namespace KFC
             User user = context.Users.FirstOrDefault(s => (string.Compare(s.login, tbLogin.Text) == 0) && s.password == tbPass.Text);
             if (user != null)
             {
-                AdminForm ad = new AdminForm(user);
+                MainForm ad = new MainForm(user);
                 this.Hide();
                 ad.Show();
             }
